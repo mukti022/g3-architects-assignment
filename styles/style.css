@@ -1,0 +1,43 @@
+/* header */
+.header{
+    background: rgba(255, 143, 15, 0.136);
+
+   width: 1920px;
+height: 1322px; 
+}
+.title{
+    font-weight: 700;
+font-size: 45px;
+color: black;
+}
+nav{
+    display: flex;
+    
+    justify-content:space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+.btn-primary{
+    width: 180px;
+height: 64px;
+background-color:#ff8f0edf  ;
+padding:21px 20px 24px 25px ;
+}
+.banner{
+    display: flex;
+    justify-content:center;
+    margin:0 200px;
+}
+
+
+
+img{
+    width: 1440px;
+height: 700px;
+}
