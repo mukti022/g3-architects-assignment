@@ -1,18 +1,17 @@
 /* header */
 .header{
-    background: rgba(255, 143, 15, 0.136);
-
-   width: 1920px;
-height: 1322px; 
+    background: rgba(255, 143, 15, 0.064);
+    width: 1920px;
+    height: 1322px; 
 }
 .title{
     font-weight: 700;
 font-size: 45px;
 color: black;
 }
+/* nav styles */
 nav{
     display: flex;
-    
     justify-content:space-between;
 }
 nav ul{
@@ -28,10 +27,11 @@ nav li{
 height: 64px;
 background-color:#ff8f0edf  ;
 padding:21px 20px 24px 25px ;
+margin-bottom: 20px;
 }
+/* banner styles */
 .banner{
-    display: flex;
-    justify-content:center;
+   
     margin:0 200px;
 }
 
@@ -39,5 +39,6 @@ padding:21px 20px 24px 25px ;
 
 img{
     width: 1440px;
-height: 700px;
+    height: 700px;
+    margin-bottom:px;
 }
